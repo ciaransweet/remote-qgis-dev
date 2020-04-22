@@ -1,0 +1,16 @@
+{
+	"name": "QGIS-Dev",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": "..",
+	},
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"python.pythonPath": "/usr/local/bin/python",
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": true,
+	},
+	"extensions": [
+		"ms-python.python"
+	]
+}
